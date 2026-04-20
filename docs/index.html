@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Advent of Craft brings together calendars, Craft Monthly seasons, and workshops for software crafting practice.">
+  <title>Advent of Craft</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="home-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="./" aria-label="Advent of Craft home">
+        <span class="brand-mark" aria-hidden="true">[AOC]</span>
+        <span class="brand-tagline">
+          <span>#HelpOthersAndLearn</span>
+          <span>#CommunityOfProfessionals</span>
+        </span>
+      </a>
+      <div class="nav-links">
+        <a href="craft-monthly/">Craft Monthly <span class="nav-tag">[new]</span></a>
+        <a href="#calendars">Calendars</a>
+        <a href="#community">Community</a>
+        <a class="discord-btn discord-btn-container" href="https://discord.gg/E5Z9s9UKTS" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+          Join the Discord
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">Saison active · De mai à l'AOC 2026</p>
+        <h1 id="hero-title">Craft Monthly</h1>
+        <p class="hero-text">Un rendez-vous mensuel pour pratiquer, débattre et coder autour du software crafting.</p>
+        <div class="actions">
+          <a class="button primary" href="craft-monthly/">Voir la saison</a>
+          <a class="button secondary" href="craft-monthly/#may-2026">
+            <span class="button-label">Episode de mai</span>
+            <span class="button-sub">→ Interview / débat · ven. 30 avril à 12h30</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="hero-divider" aria-hidden="true"></div>
+
+    <section class="section panel no-background" id="calendars" aria-labelledby="products-title">
+      <div class="section-heading">
+        <h2 id="products-title">The Full Picture</h2>
+        <p>Find the active season, previous editions, and community events.</p>
+      </div>
+
+      <div class="tile-grid">
+        <a class="tile featured" href="craft-monthly/">
+          <span class="tag current">En cours</span>
+          <h3>Craft Monthly 2026</h3>
+          <p>Interviews, débats et live coding de mai jusqu'au prochain AOC.</p>
+        </a>
+        <a class="tile" href="2025/">
+          <span class="tag archive">Archive</span>
+          <h3>Advent Calendar 2025</h3>
+          <p>Time Loop Edition: 25 days of software crafting challenges.</p>
+        </a>
+        <a class="tile" href="2024/">
+          <span class="tag archive">Archive</span>
+          <h3>Advent Calendar 2024</h3>
+          <p>You are helping Santa save Xmas. Web calendar edition and exercises on github.</p>
+        </a>
+        <a class="tile" href="https://github.com/advent-of-craft/2024-summer-craft-book" target="_blank" rel="noopener">
+          <span class="tag archive">Archive</span>
+          <h3>Summer Craft Book 2024</h3>
+          <p>A summer vacation book for craft practices.</p>
+        </a>
+        <a class="tile" href="https://github.com/advent-of-craft/2023" target="_blank" rel="noopener">
+          <span class="tag archive">Archive</span>
+          <h3>Advent Calendar 2023</h3>
+          <p>The very first edition of the Advent Of Craft. Exercises available on GitHub.</p>
+        </a>
+        <a class="tile" href="https://www.linkedin.com/company/advent-of-craft" target="_blank" rel="noopener">
+          <span class="tag available">On request</span>
+          <h3>Workshops & talks</h3>
+          <p>Contact the team to organize a session with your community.</p>
+        </a>
+        <div class="tile muted" aria-label="Advent Calendar 2026 announced">
+          <span class="tag soon">Coming soon</span>
+          <h3>Advent Calendar 2026</h3>
+          <p>See you in December for a new edition.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split panel cool" id="community" aria-labelledby="community-title">
+      <div>
+        <p class="eyebrow">Better crafters, together</p>
+        <h2 id="community-title">A community for deliberate practice</h2>
+        <p>Advent of Craft brings together developers, tech leads and coaches who want to improve through exercises, feedback, and shared learning.</p>
+      </div>
+      <div class="community-right">
+        <div class="people" aria-label="Advent of Craft team">
+          <a class="person" href="https://www.linkedin.com/in/yanncourtel/" target="_blank" rel="noopener">
+            <img src="assets/img/yann.png" alt="Yann Courtel">
+            <span>Yann Courtel</span>
+          </a>
+          <a class="person" href="https://www.linkedin.com/in/laurentdecamps/" target="_blank" rel="noopener">
+            <img src="assets/img/Laurent.png" alt="Laurent Décamps">
+            <span>Laurent Décamps</span>
+          </a>
+          <a class="person" href="https://www.linkedin.com/in/fabrice-bibonne-1729a1180/" target="_blank" rel="noopener">
+            <img src="assets/img/Fabrice.png" alt="Fabrice Bibonne">
+            <span>Fabrice Bibonne</span>
+          </a>
+        </div>
+        <a class="discord-preview" href="https://discord.gg/E5Z9s9UKTS" target="_blank" rel="noopener" aria-label="Rejoindre le Discord Advent of Craft">
+          <img src="assets/img/screenshot-discord.png" alt="Conversations actives sur le Discord Advent of Craft">
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Advent of Craft · <a href="https://github.com/advent-of-craft" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/company/advent-of-craft" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://www.youtube.com/@AdventOfCraft" target="_blank" rel="noopener">YouTube</a> · <a href="https://discord.gg/E5Z9s9UKTS" target="_blank" rel="noopener">Discord</a></p>
+  </footer>
+</body>
+</html>
